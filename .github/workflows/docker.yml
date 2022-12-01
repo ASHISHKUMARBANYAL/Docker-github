@@ -26,7 +26,6 @@ jobs:
     - name: docker build python
       run: |
         docker build ./python -t aimvector/python:1.0.0
-      run: |
         docker push aimvector/csharp:1.0.0
         docker push aimvector/nodejs:1.0.0
         docker push aimvector/python:1.0.0
